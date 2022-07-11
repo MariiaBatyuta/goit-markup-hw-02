@@ -17,14 +17,9 @@ body {
     line-height: 1.88;
     letter-spacing: 0.06em;
     cursor: pointer;
+    font-family: inherit;
     background-color: #2196F3;
     color: #FFFFFF;
-
-    position: absolute;
-    width: 200px;
-    height: 50px;
-    left: 700px;
-    top: 430px;
 }
 
 .modal-buttom:hover,
@@ -51,19 +46,19 @@ body {
     color: #757575;
 }
 
+.logotype {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
 /* ========= /COMPONENTS ========= */
 
 
 /* ========== HEADER =========== */
-
-.first-part-logo {
-    font-family: 'Raleway';
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    color: #2196F3;
-}
 
 .second-part-logo {
     font-family: 'Raleway';
@@ -132,11 +127,7 @@ body {
 }
 
 .hero {
-    width: 1600px;
-    height: 600px;
-    left: 0px;
-    top: 80px;
-    background: #2F303A;
+   
 }
 
 .main-title {
@@ -147,8 +138,57 @@ body {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
+    background-color: #2F303A;;
 }
 /* ========== /HERO ========== */
 
+/* ==========MAIN============= */
+
+.what-we-do, 
+.our-team {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
 
 
+
+/* =========FOOTER========= */
+.footer {
+    background-color: #2F303A;;
+}
+
+.second-part-logo-footer {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.company-adress-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.footer-mail-link,
+.footer-phone-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.what-we-do-portfolio {
+    color: #FFFFFF;
+}
