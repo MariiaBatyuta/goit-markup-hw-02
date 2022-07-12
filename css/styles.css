@@ -27,21 +27,46 @@ body {
     background-color: #188CE8;
 }
 
-
-.inform-title {
+.inform-title-qualities {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #212121;
+}
 
+.inform-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.inform-title-portfolio {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
 }
 
 .description {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.description-portfolio {
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.description-team {
+    line-height: 1.19;
     letter-spacing: 0.03em;
     color: #757575;
 }
@@ -98,6 +123,11 @@ body {
     color: #2196F3;
 }
 
+.active-portfolio,
+.active-studia {
+    color: #2196F3;
+}
+
 /* ========== /HEADER =========== */
 
 /* =========== HERO ============ */
@@ -108,6 +138,7 @@ body {
     line-height: 1.63;
     text-align: center;
     letter-spacing: 0.03em;
+    font-family: inherit;
     color: #212121;
     background-color: #F5F4FA;
     border-radius: 4px;
@@ -172,7 +203,6 @@ body {
 
 .company-adress-link {
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -182,7 +212,6 @@ body {
 .footer-mail-link,
 .footer-phone-link {
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
